@@ -4250,6 +4250,101 @@
 				],
 				"title_spec": "Spec",
 				"title_spec_desc": "角丸は 8px / 20px に統一します。"
+			},
+			"typography":{
+				"title": "Typography",
+				"title_principle": "Principle",
+				"principle_desc":[
+					{
+						"desc": "アプリ内では定義されたタイポグラフィ以外のものは利用しません。定義されたFont Familyを利用し、すべての画面において一貫性を保ちます"
+					},
+					{
+						"desc": "可読性視認性を担保し、どんな人が見ても内容を理解できるようにレイアウトする必要があります"
+					},
+					{
+						"desc": "和文はシステムフォント、欧文はカスタムフォントを利用し、必要以上の装飾やカスタムフォントの利用はしません"
+					},
+					{
+						"desc": "PayPayアプリはあらゆる言語をサポートする必要があります。（2020年時点では日本語/英語をサポート）"
+					}
+				],
+				"title_usage": "Usage",
+				"subtitle_font_families": "Font Families",
+				"title_usage_desc": [
+					{
+						"desc": "Font Familyはここに定義されたもののみを利用します。"
+					}
+				],
+				"subtitle_weight": "Weight",
+				"subtitle_font_size":"Font Size",
+				"font_size_desc": [
+					{
+						"desc": "フォントサイズをHeading/Label/Bodyの3種類定義します。"
+					},
+					{
+						"desc": "すべてのコンポーネントはこの3種類から構成されます。"
+					},
+					{
+						"desc": "各コンポーネントで使われるフォントについては、各ガイドラインを参照してください。"
+					}
+				],
+				"subtitle_heading": "Heading (H)",
+				"heading_desc": [
+					{
+						"desc": "ヘッダやタイトルに利用します。"
+					},
+					{
+						"desc": "Head / TitlesのサイズはLabel/Paragraphのサイズより小さくすることはできません。"
+					}
+				],
+				"subtitle_body":"Body (B)",
+				"body_txt_desc": [
+					{
+						"desc": "ユーザーアクションによる入力情報、記事、コンテンツの説明文などに利用します。"
+					},
+					{
+						"desc": "原則14pxの利用を推奨しますが、重要なコンポーネントについては、16pxを使用する必要があります。"
+					}
+				],
+				"subtitle_line_height":"Line Height",
+				"line_height_desc": [
+					{
+						"desc": "Line heightを定義します。"
+					},
+					{
+						"desc": "十分な行間を保つことで、テキストの可読性を担保します。"
+					}
+				],
+				"line_height_txt_desc": "Font size *1.5 px/sp = line-height (vertically centered)",
+				"title_size_line": "Size Line-UP",
+				"size_line_desc":"前述の項目で定義したフォントのサイズLine-upです。",
+				"title_text_color": "Text Color",
+				"text_color_desc": [
+					{
+						"desc": "用途別のテキストカラーを定義します。"
+					},
+					{
+						"desc": "カラーはカラーパレットから引用しています。"
+					},
+					{
+						"desc": "下記に定義されたカラーを異なる用途で利用することは禁止します。"
+					}
+				],
+				"subtitle_default_text": "Default text",
+				"subtitle_status": "Status",
+				"title_price_text": "Price Text",
+				"price_text_desc": [
+					{
+						"desc": "PayPayはサービスの特性から、UI上で価格＋円の組み合わせを多用します。"
+					},
+					{
+						"desc": "価格は決済アプリにおいて最も重要な情報であり、十分な可読性を担保する必要があります。"
+					},
+					{
+						"desc": "価格部分を読みやすくするよう「円」は価格のサイズより小さく表示する必要があります。"
+					}
+				],
+				"text_desc": "ここでは価格と円の比率を定義します。"
 			}
 		}	  
 	}
