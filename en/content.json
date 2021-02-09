@@ -4297,6 +4297,18 @@
 						"desc": "Head / TitlesのサイズはLabel/Paragraphのサイズより小さくすることはできません。"
 					}
 				],
+				"subtitle_label": "Label (L)",
+				"label_desc": [
+					{
+						"desc": "中見出し、アクションコンポーネント、補足情報に利用します。"
+					},
+					{
+						"desc": "9、10pxなどの小さいサイズでは、Boldの利用を推奨します。"
+					},
+					{
+						"desc": "11px以下のサイズは主要なコンポーネントには利用しません。"
+					}
+				],
 				"subtitle_body":"Body (B)",
 				"body_txt_desc": [
 					{
